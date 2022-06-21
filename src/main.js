@@ -16,8 +16,8 @@ import Vuesax from 'vuesax'
 import 'material-icons/iconfont/material-icons.css' //Material Icons
 import 'vuesax/dist/vuesax.css' // Vuesax
 Vue.use(Vuesax)
-
-Vue.prototype.$server_url = process.env.apiProlipa
+Vue.prototype.$server_url = "http://localhost:8000/"
+//Vue.prototype.$server_url = process.env.apiProlipa
 const server_url = Vue.prototype.$server_url
 Vue.prototype.$data_url = process.env.apiProlipaData
 
